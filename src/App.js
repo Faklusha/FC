@@ -1,9 +1,11 @@
-import './App.css'
+import './App.scss'
+import beat from './images/beat.gif'
 import {useState} from "react";
 import Background from "./components/Background";
 import Header from "./components/Header";
 import Julia from "./components/Julia";
 import Monstr from "./components/Monstr";
+import BackgroundCircles from "./components/BackgroundCircles";
 
 function App() {
     const [isStarted, setIsStarted] = useState(false)
@@ -21,7 +23,7 @@ function App() {
 
         setTimeout(() => {
             setIsBeating(false)
-        }, 3000)
+        }, 2000)
 
         setTimeout(() => {
             setMonstrIsBeating(false)
@@ -54,10 +56,10 @@ function App() {
 
     return (
         <div className="app">
+            <BackgroundCircles/>
             <Header/>
             <div className="content">
                 <Background/>
-
                 <div className="content__controls">
                     {!isStarted &&
                         <div className="content__controls_button" onClick={handleStartButtonClick}>Start</div>
@@ -66,6 +68,13 @@ function App() {
                 }
                     {isStarted && <div className="content__controls_button" onClick={handleWinButtonClick}>Win</div>
                     }                </div>
+                {
+                    isBeating && <div className="content__beat">
+                        <div className="content__beat_image" style={{
+                            backgroundImage: `url(${beat})`
+                        }}/>
+                    </div>
+                }
 
                 <Julia isBeating={isBeating} isWined={isWined} isStarted={isStarted} isRun={isRun}/>
 

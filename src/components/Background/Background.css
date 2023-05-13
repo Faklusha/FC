@@ -1,9 +1,15 @@
 
+.background {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: flex-start;*/
+}
+
 .background__sun {
-    width: 250px;
-    height: 250px;
-    top: 7%;
-    left: 30%;
+    width: 150px;
+    height: 150px;
+    top: 10%;
+    left: 33%;
     z-index: 4;
     position: absolute;
     animation: 25s linear infinite rotate;

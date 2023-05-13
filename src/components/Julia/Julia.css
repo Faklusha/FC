@@ -34,6 +34,8 @@
     /*filter: brightness(0.98) contrast(0.99) sepia(0.1) blur(0.2px);*/
 }
 
+
+
 @keyframes run {
     0% {
         transform: scale(1.5);

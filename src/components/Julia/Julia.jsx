@@ -28,6 +28,7 @@ function Julia({isBeating, isWined, isStarted, isRun}) {
             <div className="content__julia_image" style={{
                 backgroundImage: `url(${getJuliaImage()})`
             }}/>
+
         </div>
     );
 }
