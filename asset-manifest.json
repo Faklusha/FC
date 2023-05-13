@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/FC/static/css/main.9822f59b.css",
+    "main.js": "/FC/static/js/main.67dba445.js",
+    "static/media/juliaStay.gif": "/FC/static/media/juliaStay.d2354c03ddb43244c14f.gif",
+    "static/media/juliaBeat.gif": "/FC/static/media/juliaBeat.e3a81578d2624c12bd95.gif",
+    "static/media/juliaWin.gif": "/FC/static/media/juliaWin.c2a5ba42c5bfab3264f6.gif",
+    "static/media/monstrStay.gif": "/FC/static/media/monstrStay.ca5ca5b8f713677eba0d.gif",
+    "static/media/juliaRun.gif": "/FC/static/media/juliaRun.c91b7ab91c32dc58aa35.gif",
+    "static/media/monstrBeat.gif": "/FC/static/media/monstrBeat.c41e2b8dfeae73fbace6.gif",
+    "static/media/beat.gif": "/FC/static/media/beat.9f0e205a2fd01077a19b.gif",
+    "static/media/castle.png": "/FC/static/media/castle.7c811e3f775503a29116.png",
+    "static/media/raleway-v22-cyrillic-300.woff2": "/FC/static/media/raleway-v22-cyrillic-300.6a0528b403942983a68b.woff2",
+    "static/media/raleway-v22-cyrillic-900.woff2": "/FC/static/media/raleway-v22-cyrillic-900.797b5998b7dd5967c115.woff2",
+    "index.html": "/FC/index.html",
+    "main.9822f59b.css.map": "/FC/static/css/main.9822f59b.css.map",
+    "main.67dba445.js.map": "/FC/static/js/main.67dba445.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9822f59b.css",
+    "static/js/main.67dba445.js"
+  ]
+}
