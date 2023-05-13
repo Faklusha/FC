@@ -1,0 +1,48 @@
+
+.background__sun {
+    width: 250px;
+    height: 250px;
+    top: 7%;
+    left: 30%;
+    z-index: 4;
+    position: absolute;
+    animation: 25s linear infinite rotate;
+    filter: brightness(0.97) contrast(1.35);
+
+}
+
+.background__sun_image {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.background__castle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 18%;
+    filter: brightness(0.97) contrast(1.27);
+
+}
+
+
+.background__castle_image {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
